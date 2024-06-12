@@ -4,9 +4,7 @@ const repeatString = function (stringWord, num) {
         if(num < 0)return "ERROR";{
             string += stringWord;
         }
-        } return string; 
+        }return string;
     };
-    
-
 // Do not edit below this line
 module.exports = repeatString;
