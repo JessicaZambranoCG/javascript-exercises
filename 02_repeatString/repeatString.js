@@ -1,13 +1,10 @@
 const repeatString = function (stringWord, num) {
     let string = "";
     for (let i = 0; i < num; i++) {
-        if(num < 0){
-            return "NOTSTRING";
+        if(num < 0)return "ERROR";{
             string += stringWord;
-        }else{
-            return string;
         }
-        }  
+        } return string; 
     };
     
 
